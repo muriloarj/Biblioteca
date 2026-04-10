@@ -1,6 +1,6 @@
-class MemoryDB:
+class MemoryDB: 
     def __init__(self):
         self.leitores = {}
         self.livros = {}
-
-db = MemoryDB()
+ 
+db = MemoryDB() 
