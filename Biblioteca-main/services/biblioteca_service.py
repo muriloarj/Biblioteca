@@ -35,3 +35,4 @@ def alterar_preco_livro(codigo: int, novo_preco: float):
         raise ValueError("O preço não pode ser negativo.")
         livro.preco = novo_preco
         return livro
+

@@ -11,3 +11,4 @@ def get_leitor(data: LeitorCreate):
 @route.get("", response_model=list[LeitorOut])
 def get_leitores():
     return listar_leitores()
+    

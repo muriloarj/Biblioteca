@@ -9,3 +9,4 @@ class LeitorOut(BaseModel):
     id: int
     nome: str
     email: EmailStr
+    

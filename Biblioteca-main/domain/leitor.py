@@ -5,3 +5,4 @@ class Leitor:
     id: int
     nome: str
     email: str
+    
